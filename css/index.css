@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca',sans-serif;
+}
+section{
+    display: flex;
+    padding: 30px 0;
+    align-items: center;
+    width: 900px;
+    justify-content: center;
+    position: absolute;
+    top: 50px;
+    left: 350px;
+}
+.hero1{
+    width: 100%;
+    height: 500px;
+    padding: 40px 0;
+    background-color: hsl(31, 77%, 52%);
+}
+.hero2{
+    width: 100%;
+    height: 500px;
+    padding: 40px 0;
+    background-color: hsl(184, 100%, 22%);
+}
+.hero3{
+    width: 100%;
+    height: 500px;
+    padding: 40px 0;
+    background-color: hsl(179, 100%, 13%);
+}
+.img_hero{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+h1{
+    margin-top: 30px;
+    margin-left: 40px;
+    color: hsl(0, 0%, 95%);
+    font-size: 1.8em;
+}
+p{
+    margin-top: 50px;
+    margin-left: 40px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    width: 70%;
+}
+.btn1{
+    margin-top: 100px;
+    margin-left: 60px;
+    padding: 12px;
+    width: 130px;
+    border-bottom-left-radius: 1.1rem;
+    border-bottom-right-radius: 1.1rem;
+    border-top-left-radius: 1.1rem;
+    border-top-right-radius: 1.1rem;
+    color: hsl(31, 77%, 52%);
+    align-items: center;
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: hsla(0, 0%, 95%, 0);
+    color: hsla(0, 0%, 100%, 0.75);
+    border: 1px solid hsl(0, 0%, 95%);
+    transition: all .3s ease-in-out;
+}
+.btn2{
+    margin-top: 100px;
+    margin-left: 60px;
+    padding: 12px;
+    width: 130px;
+    color: hsl(184, 100%, 22%);
+    border-bottom-left-radius: 1.1rem;
+    border-bottom-right-radius: 1.1rem;
+    border-top-left-radius: 1.1rem;
+    border-top-right-radius: 1.1rem;
+    align-items: center;
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: hsla(0, 0%, 95%, 0);
+    color: hsla(0, 0%, 100%, 0.75);
+    border: 1px solid hsl(0, 0%, 95%);
+    transition: all .3s ease-in-out;
+}
+.btn3{
+    margin-top: 100px;
+    margin-left: 60px;
+    padding: 12px;
+    width: 130px;
+    color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 1.1rem;
+    border-bottom-right-radius: 1.1rem;
+    border-top-left-radius: 1.1rem;
+    border-top-right-radius: 1.1rem;
+    align-items: center;
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+.btn3:hover{
+    background-color: hsla(0, 0%, 95%, 0);
+    color: hsla(0, 0%, 100%, 0.75);
+    border: 1px solid hsl(0, 0%, 95%);
+    transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width:376px) {
+    section{
+        display: block;
+        padding: 30px 0;
+        align-items: center;
+        width: 300px;
+        justify-content: center;
+        position: absolute;
+        top: 30px;
+        left: 40px;
+    }
+}
